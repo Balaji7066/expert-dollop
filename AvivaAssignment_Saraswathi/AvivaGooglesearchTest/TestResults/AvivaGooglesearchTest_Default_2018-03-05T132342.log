@@ -1,0 +1,59 @@
+﻿2018-03-05T13:23:42.0471951+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-03-05T13:23:42.1662019+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-03-05T13:23:42.1672019+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\AvivaGooglesearchTest\bin\Release\AvivaGooglesearchTest.dll
+2018-03-05T13:23:42.1682020+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-03-05T13:23:47.3624991+05:30;Thread#14;Info;Discovering target: Default
+2018-03-05T13:23:47.3624991+05:30;Thread#14;Info;Discovering tests from assembly: D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\AvivaGooglesearchTest\bin\Release\AvivaGooglesearchTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AvivaGooglesearchTest/Default - 
+#1: Default - 
+#2: AvivaGooglesearchTest - 
+#3: Print 5th link text of Aviva - 
+#4: Search with Aviva keyword on Google home page and print the 5th link text, Aviva - TestAssembly:AvivaGooglesearchTest/Feature:Print+5th+link+text+of+Aviva/Scenario:Search+with+Aviva+keyword+on+Google+home+page+and+print+the+5th+link+text%2c+Aviva
+#5: User should search with wrong name on Google home page - TestAssembly:AvivaGooglesearchTest/Feature:Print+5th+link+text+of+Aviva/Scenario:User+should+search+with+wrong+name+on+Google+home+page
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AvivaGooglesearchTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sg663051\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given launch the google home page
+Thread#0:T:done: StepDefinitions.LaunchGooglehomepage() (12.7s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp8842.jpg ]SCREENSHOT
+Thread#0:B:And search with the string 'Aviva'
+Thread#0:T:error: Could not find element by: By.Name: q
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp89B9.jpg ]SCREENSHOT
+Thread#0:B:When click on search button
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then prints the 5th link text of results page.
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And number of links returned should be 10
+Thread#0:T:skipped because of previous errors
+Cancelling because configured number of failures reached
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 29.7427012 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#-1:Scheduler: considering testitem #5 for thread -1
+Thread#-1:Scheduler: using testitem #5 for thread -1
+Thread#-1:Scheduler: Test #5 is scheduled for thread
+Thread#-1: Test #5/0 is started on thread #-1
+Thread#-1: Test #5/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 1
+Failed: 1

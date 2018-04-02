@@ -1,0 +1,85 @@
+﻿2018-03-05T13:24:28.9658787+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-03-05T13:24:29.0438831+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-03-05T13:24:29.0438831+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\AvivaGooglesearchTest\bin\Release\AvivaGooglesearchTest.dll
+2018-03-05T13:24:29.0448832+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-03-05T13:24:38.1574044+05:30;Thread#14;Info;Discovering target: Default
+2018-03-05T13:24:38.1584045+05:30;Thread#14;Info;Discovering tests from assembly: D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\AvivaGooglesearchTest\bin\Release\AvivaGooglesearchTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AvivaGooglesearchTest/Default - 
+#1: Default - 
+#2: AvivaGooglesearchTest - 
+#3: Print 5th link text of Aviva - 
+#4: Search with Aviva keyword on Google home page and print the 5th link text, Aviva - TestAssembly:AvivaGooglesearchTest/Feature:Print+5th+link+text+of+Aviva/Scenario:Search+with+Aviva+keyword+on+Google+home+page+and+print+the+5th+link+text%2c+Aviva
+#5: User should search with wrong name on Google home page - TestAssembly:AvivaGooglesearchTest/Feature:Print+5th+link+text+of+Aviva/Scenario:User+should+search+with+wrong+name+on+Google+home+page
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AvivaGooglesearchTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\sg663051\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given launch the google home page
+Thread#0:T:done: StepDefinitions.LaunchGooglehomepage() (8.3s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmpE71.jpg ]SCREENSHOT
+Thread#0:B:And search with the string 'Aviva'
+Thread#0:T:done: StepDefinitions.GivenSearchWithTheString("Aviva") (0.1s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp1066.jpg ]SCREENSHOT
+Thread#0:B:When click on search button
+Thread#0:T:done: StepDefinitions.WhenClickOnSearchButton() (11.7s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp3F81.jpg ]SCREENSHOT
+Thread#0:B:Then prints the 5th link text of results page.
+Thread#0:T:Link text of 5 th link is:Aviva® i-Growth Insurance
+Thread#0:T:done: StepDefinitions.ThenPrintsTheThLinkTextOfResultsPage_(5) (0.0s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp4137.jpg ]SCREENSHOT
+Thread#0:B:And number of links returned should be 10
+Thread#0:T:Total number of links returned:16
+Thread#0:T:Expected number of links returned :10
+Thread#0:T:done: StepDefinitions.ThenNumberOfLinksReturnedShouldBe(10) (0.0s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp42DD.jpg ]SCREENSHOT
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 26.313505 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given launch the google home page
+Thread#0:T:done: StepDefinitions.LaunchGooglehomepage() (8.9s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp789E.jpg ]SCREENSHOT
+Thread#0:B:And search with the string '#*&(&jkldfhjkasdhf'
+Thread#0:T:done: StepDefinitions.GivenSearchWithTheString("#*&(&jkldfhjkasdhf") (0.2s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp7AC1.jpg ]SCREENSHOT
+Thread#0:B:When click on search button
+Thread#0:T:done: StepDefinitions.WhenClickOnSearchButton() (1.2s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp8137.jpg ]SCREENSHOT
+Thread#0:B:Then No results found page should be shown.
+Thread#0:T:p value is : Your search - #*&(&jkldfhjkasdhf - did not match any documents.
+Thread#0:T:done: StepDefinitions.ThenNoResultsFoundPageShouldBeShown_() (0.1s)
+Thread#0:T:SCREENSHOT[ file:///D:\Aviva\Aviva Final\Resume\Assessment - Final\Second Lot\Saraswathi - Selected\AvivaAssignment_Saraswathi\AvivaGooglesearchTest\TestResults\tmp82FD.jpg ]SCREENSHOT
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 16.3709363 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2
+Succeeded: 2
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
